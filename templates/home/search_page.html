@@ -1,0 +1,4 @@
+{% for product in search_products %}
+<p>{{ product.title }}</p>
+<img src="{{ product.image.url }}" alt="">
+{% endfor %}

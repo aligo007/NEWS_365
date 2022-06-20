@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{% static 'assets/images/fev-icon.png'%}" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>newspaper</title>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css'%}">
+    <!-- Scrollbar css -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/jquery.mCustomScrollbar.css'%}" />
+    <!-- Owl Carousel css -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/owl-carousel/owl.carousel.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/owl-carousel/owl.theme.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/owl-carousel/owl.transitions.css'%}" />
+    <!-- youtube css -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/RYPP.css'%}" />
+    <!-- jquery-ui css -->
+    <link rel="stylesheet" href="{% static 'assets/css/jquery-ui.css'%}">
+    <!-- animate -->
+    <link rel="stylesheet" href="{% static 'assets/css/animate.min.css'%}">
+    <!-- fonts css -->
+    <link rel="stylesheet" href="{% static 'assets/font-awesome/css/font-awesome.min.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/Pe-icon-7-stroke.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/flaticon.css'%}" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="{% static 'assets/css/style.css'%}">
+</head>
+
+
+
+
+
+
+
+
+<body>
+
+
+
+    {% block header %}
+        {%include 'home/header.html'%}
+    {%endblock header%}
+
+    {% block main %}
+
+    {% endblock main %}
+
+    {% block all_category %}
+        {%include 'home/all_category.html'%}
+    {%endblock all_category%}
+
+    {% block footer %}
+        {%include 'home/footer.html'%}
+    {%endblock footer%}
+
+
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script type="text/javascript" src="{% static 'assets/js/jquery.min.js'%}"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script type="text/javascript" src="{% static 'assets/js/bootstrap.min.js'%}"></script>
+   <!-- Metis Menu Plugin JavaScript -->
+   <script type="text/javascript" src="{% static 'assets/js/metisMenu.min.js'%}"></script>
+   <!-- Scrollbar js -->
+   <script type="text/javascript" src="{% static 'assets/js/jquery.mCustomScrollbar.concat.min.js'%}"></script>
+   <!-- animate js -->
+   <script type="text/javascript" src="{% static 'assets/js/wow.min.js'%}"></script>
+   <!-- Newstricker js -->
+   <script type="text/javascript" src="{% static 'assets/js/jquery.newsTicker.js'%}"></script>
+   <!--  classify JavaScript -->
+   <script type="text/javascript" src="{% static 'assets/js/classie.js'%}"></script>
+   <!-- owl carousel js -->
+   <script type="text/javascript" src="{% static 'assets/owl-carousel/owl.carousel.js'%}"></script>
+   <!-- youtube js -->
+   <script type="text/javascript" src="{% static 'assets/js/RYPP.js'%}"></script>
+   <!-- jquery ui js -->
+   <script type="text/javascript" src="{% static 'assets/js/jquery-ui.js'%}"></script>
+   <!-- form -->
+   <script type="text/javascript" src="{% static 'assets/js/form-classie.js'%}"></script>
+   <!-- custom js -->
+   <script type="text/javascript" src="{% static 'assets/js/custom.js'%}"></script>
+</body>
+
+</html>
